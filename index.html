@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" id="themeStyles" href="Themes/purple.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="shortcut icon" href="Assets/favicon.svg" type="image/x-icon" />
+    <title>quickCalc Calculator</title>
+    <meta
+      name="description"
+      content="A simple calculator app with changeable themes, responsive design, and accessibility features." />
+  </head>
+  <body>
+    <header>
+      <h1>quick<span class="bold">Calc</span></h1>
+      <div class="themeSelect">
+        <label aria-label="Change theme color" for="theme"></label>
+        <input
+          aria-label="Purple theme color"
+          type="radio"
+          name="theme"
+          id="purple"
+          value="purple" />
+        <input
+          aria-label="Blue theme color"
+          type="radio"
+          name="theme"
+          id="blue"
+          value="blue" />
+        <input
+          aria-label="Green theme color"
+          type="radio"
+          name="theme"
+          id="green"
+          value="green" />
+        <input
+          aria-label="Orange theme color"
+          type="radio"
+          name="theme"
+          id="orange"
+          value="orange" />
+        <input
+          aria-label="Red theme color"
+          type="radio"
+          name="theme"
+          id="red"
+          value="red" />
+      </div>
+      <button
+        class="nav-toggle"
+        aria-controls="navigation"
+        aria-expanded="false">
+        <span class="sr-only">Menu</span>
+      </button>
+      <nav class="nav-bar" data-visible="false">
+        <ul>
+          <li>
+            <button><i class="fa-regular fa-keyboard"></i> Shortcuts</button>
+          </li>
+          <li>
+            <a href=""><i class="fa-solid fa-code"></i> Source</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="flex">
+      <div class="calculator">
+        <div
+          aria-label="Output Screen"
+          aria-live="assertive"
+          tabindex="0"
+          class="output">
+          <div data-previous class="previous"></div>
+          <div data-current class="current"></div>
+        </div>
+        <div class="buttons">
+          <!-- Percent, SqrRoot, Exponent, Backspace -->
+          <button aria-label="Percent" data-percent>%</button>
+          <button aria-label="Square Root" data-sqr class="change-size">
+            √
+          </button>
+          <button aria-label="Exponent" data-operation class="change-size">
+            ^
+          </button>
+          <button aria-label="Delete" data-delete>
+            <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+          </button>
+          <!-- 7, 8, 9, Multiply -->
+          <button data-number>7</button>
+          <button data-number>8</button>
+          <button data-number>9</button>
+          <button aria-label="Multiplied by" data-operation class="change-size">
+            x
+          </button>
+          <!-- 4, 5, 6, Divide -->
+          <button data-number>4</button>
+          <button data-number>5</button>
+          <button data-number>6</button>
+          <button data-operation class="change-size">÷</button>
+          <!-- 1, 2, 3, Add -->
+          <button data-number>1</button>
+          <button data-number>2</button>
+          <button data-number>3</button>
+          <button aria-label="Plus" data-operation class="change-size">
+            +
+          </button>
+          <!-- Positive/Negative, 0, Decimal, Subtract -->
+          <button data-sign aria-label="Positive or Negative">+/-</button>
+          <button data-number>0</button>
+          <button aria-label="Decimal" data-number>.</button>
+          <button aria-label="Minus" data-operation class="change-size">
+            −
+          </button>
+          <!-- Clear, Equals -->
+          <button data-clear class="double">CLEAR</button>
+          <button aria-label="Equals" data-equals class="double change-size">
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
