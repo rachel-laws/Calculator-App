@@ -1,0 +1,29 @@
+/* GREEN */
+
+:root {
+  /* BODY */
+  --body-bg1: #3b593b;
+  --body-bg2: rgb(1, 52, 49);
+
+  /* CALCULATOR */
+  --calculator-bg: linear-gradient(33deg, #243225, #1a1a1a);
+
+  /* BUTTONS */
+  --buttons: #0a7647;
+  --buttons-hover: #17a467;
+
+  --buttons-text: #ffffff;
+
+  /* OUTPUT */
+  --current-output: #e2ffe4;
+  --previous-output: #deffdbb5;
+
+  --output-shadow: inset -4px 4px 20px #000000;
+  --output-bg: linear-gradient(
+    33deg,
+    #292929,
+    #131313 50%,
+    #0d0d0d 75%,
+    #000 95%
+  );
+}

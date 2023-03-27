@@ -1,0 +1,29 @@
+/* ORANGE */
+
+:root {
+  /* BODY */
+  --body-bg1: #a27746;
+  --body-bg2: rgb(85 0 31);
+
+  /* CALCULATOR */
+  --calculator-bg: linear-gradient(33deg, #28211e, #1a1a1a);
+
+  /* BUTTONS */
+  --buttons: #b4592f;
+  --buttons-hover: #d77649;
+
+  --buttons-text: #ffdcf5;
+
+  /* OUTPUT */
+  --current-output: #ffa7c7;
+  --previous-output: #ffaac9e6;
+
+  --output-shadow: inset -4px 4px 20px #000000;
+  --output-bg: linear-gradient(
+    33deg,
+    #292929,
+    #131313 50%,
+    #0d0d0d 75%,
+    #000 95%
+  );
+}

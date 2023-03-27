@@ -1,0 +1,29 @@
+/* BLUE */
+
+:root {
+  /* BODY */
+  --body-bg1: #213664;
+  --body-bg2: rgb(16 2 45);
+
+  /* CALCULATOR */
+  --calculator-bg: linear-gradient(33deg, #212434, #1a1a1a);
+
+  /* BUTTONS */
+  --buttons: #2e43ac;
+  --buttons-hover: rgb(64 91 229);
+
+  --buttons-text: #dfdffa;
+
+  /* OUTPUT */
+  --current-output: #c4d3fb;
+  --previous-output: #cfdbfcb5;
+
+  --output-shadow: inset -4px 4px 20px #000000;
+  --output-bg: linear-gradient(
+    33deg,
+    #292929,
+    #131313 50%,
+    #0d0d0d 75%,
+    #000 95%
+  );
+}

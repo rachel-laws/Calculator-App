@@ -1,0 +1,29 @@
+/* PURPLE */
+
+:root {
+  /* BODY */
+  --body-bg1: rgb(62 29 83);
+  --body-bg2: rgb(5 3 32);
+
+  /* CALCULATOR */
+  --calculator-bg: linear-gradient(33deg, #2b083c, #1a1a1a);
+
+  /* BUTTONS */
+  --buttons: #73269c;
+  --buttons-hover: #9c39d1;
+
+  --buttons-text: #f0daf9;
+
+  /* OUTPUT */
+  --current-output: #e2b2fa;
+  --previous-output: #e1c1f7b5;
+
+  --output-shadow: inset -4px 4px 20px #000000;
+  --output-bg: linear-gradient(
+    33deg,
+    #292929,
+    #131313 50%,
+    #0d0d0d 75%,
+    #000 95%
+  );
+}
