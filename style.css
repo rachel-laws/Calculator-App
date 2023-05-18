@@ -120,9 +120,7 @@ nav button {
 }
 
 nav a:hover,
-nav a:focus-visible,
-nav button:hover,
-nav button:focus-visible {
+nav button:hover {
   border: 1px solid var(--nav-txt);
   transition: 250ms ease;
 }
@@ -239,9 +237,8 @@ nav[data-visible='true'] {
   aspect-ratio: 5/2;
 }
 
-/** Button hover/focus effects */
-.buttons button:hover,
-.buttons button:focus-visible {
+/** Button hover effects */
+.buttons button:hover {
   background: var(--buttons-hover);
 }
 
@@ -308,8 +305,7 @@ input[type='radio']#red {
   --themeSelect-color: #a70707;
 }
 
-.themeSelect [type='radio']:hover,
-.themeSelect [type='radio']:focus-visible {
+.themeSelect [type='radio']:hover {
   transform: scale(1.05);
   transition: 200ms ease;
 }
