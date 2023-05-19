@@ -2,15 +2,15 @@
 
 :root {
   /* BODY */
-  --body-bg1: rgb(62 29 83);
-  --body-bg2: rgb(5 3 32);
+  --body-bg2: #0d0931;
+  --body-bg1: #412b49;
 
   /* CALCULATOR */
-  --calculator-bg: linear-gradient(33deg, #2b083c, #1a1a1a);
+  --calculator-bg: linear-gradient(33deg, #27182f, #1a1a1a);
 
   /* BUTTONS */
-  --buttons: #73269c;
-  --buttons-hover: #9c39d1;
+  --buttons: #732d94;
+  --buttons-hover: #8932b1;
 
   --buttons-text: #f0daf9;
 
