@@ -12,11 +12,11 @@
   --buttons: #b4592f;
   --buttons-hover: #d77649;
 
-  --buttons-text: #ffdcf5;
+  --buttons-text: #fcfcfc;
 
   /* OUTPUT */
-  --current-output: #ffa7c7;
-  --previous-output: #ffaac9e6;
+  --current-output: #ffffff;
+  --previous-output: #ffffffb5;
 
   --output-shadow: inset -4px 4px 20px #000000;
   --output-bg: linear-gradient(

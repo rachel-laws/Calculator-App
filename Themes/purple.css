@@ -15,8 +15,8 @@
   --buttons-text: #f0daf9;
 
   /* OUTPUT */
-  --current-output: #e2b2fa;
-  --previous-output: #e1c1f7b5;
+  --current-output: #ffffff;
+  --previous-output: #ffffffb5;
 
   --output-shadow: inset -4px 4px 20px #000000;
   --output-bg: linear-gradient(

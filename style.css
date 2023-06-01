@@ -41,7 +41,7 @@ header {
   inset: 0;
   z-index: 9999;
 
-  height: 2.5rem;
+  height: 3rem;
 
   color: var(--nav-txt);
   background-color: var(--nav-bg);
@@ -49,20 +49,9 @@ header {
   box-shadow: 0 1px 6px rgba(0 0 0 / 0.3), inset 0 0 15px rgba(0 0 0 / 0.8);
 }
 
-h1 {
-  margin: 0.3rem 1.25rem;
-
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', Verdana,
-    sans-serif;
-  font-style: italic;
-  font-size: 1.5rem;
-  font-weight: 100;
-}
-
-span[class='bold'] {
-  margin-left: 2px;
-  font-style: normal;
-  font-weight: bold;
+header img {
+  height: 95%;
+  margin-left: 0.75rem;
 }
 
 /** Navbar */
@@ -319,8 +308,8 @@ nav[data-visible='true'] {
   }
 
   /** quickCalc */
-  h1 {
-    margin: 0.9rem 1.5rem;
+  header img {
+    height: 60%;
   }
 
   /** Navbar */
